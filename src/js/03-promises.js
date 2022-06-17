@@ -22,7 +22,7 @@ e.preventDefault();
   let position = 0;
 
 
-  for (let i = 0; i < amount; i += 1) {
+  for (let i = 1; i < amount; i += 1) {
     
     setTimeout(() => {
     position = i;
